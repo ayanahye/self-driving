@@ -16,7 +16,7 @@ pygame.init()
 
 # define constants
 WIDTH, HEIGHT = 800, 800
-CAR_WIDTH, CAR_HEIGHT = 10, 15  
+CAR_WIDTH, CAR_HEIGHT = 7, 10  
 MAZE_SIZE = 40  
 CELL_SIZE = WIDTH // MAZE_SIZE
 FPS = 60
@@ -124,7 +124,7 @@ class Car:
         self.x = x
         self.y = y
         # speed and angle the car is facing
-        self.speed = 5
+        self.speed = 2
         self.angle = angle
         # car is not fixed then its a player car
         self.is_player = is_player
